@@ -4,7 +4,11 @@
   "description": "Express Routing &amp; Connected API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "repository": {
     "type": "git",
@@ -18,8 +22,15 @@
   },
   "homepage": "https://github.com/corey-marchand/lab08#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "eslint": "^6.5.1",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "mongod": "^2.0.0",
+    "mongoose": "^5.7.6",
+    "morgan": "^1.9.1",
+    "supertest": "^4.0.2",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "jsdoc": "^3.6.3"
