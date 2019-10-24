@@ -1,0 +1,27 @@
+{
+  "name": "lab08",
+  "version": "1.0.0",
+  "description": "Express Routing &amp; Connected API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corey-marchand/lab08.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corey-marchand/lab08/issues"
+  },
+  "homepage": "https://github.com/corey-marchand/lab08#readme",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.3"
+  }
+}
